@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arivunambi.coursebuilder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginScreen"
+            android:label="@string/title_activity_login_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeScreen"
+            android:label="CourseBuilder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CourseScreen"
+            android:label="@string/title_activity_course_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LessonScreen"
+            android:label="@string/title_activity_lesson_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArticleScreen"
+            android:label="@string/title_activity_article_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuizScreen"
+            android:label="@string/title_activity_quiz_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivityScreen"
+            android:label="@string/title_activity_activity_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateCourse"
+            android:label="@string/title_activity_create_course"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".CreateLesson"
+            android:label="@string/title_activity_create_lesson"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".CreateArticle"
+            android:label="@string/title_activity_create_article"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".ArticleContent"
+            android:label="@string/title_activity_article_content"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VideoPlayer"
+            android:label="@string/title_activity_video_player"
+            android:theme="@style/AppTheme.VideoPop" />
+        <activity
+            android:name=".CreateQuiz"
+            android:label="@string/title_activity_create_quiz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuizContent"
+            android:label="@string/title_activity_quiz_content"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateQuestion"
+            android:label="@string/title_activity_create_question"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateActivity"
+            android:label="@string/title_activity_create"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignupUser" />
+        <activity android:name=".DocViewer"
+            android:label="DocViewer"
+            android:theme="@style/AppTheme.SubActivity"/>
+        <activity
+            android:name=".LoadingScreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ScoreReport"
+            android:label="Score Card"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

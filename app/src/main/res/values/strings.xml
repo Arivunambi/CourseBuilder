@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CourseBuilder</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_aboutUs">AboutUs</string>
+    <string name="action_clear">Clear Cache</string>
+    <string name="action_cache">Turn Off Cache</string>
+    <string name="action_logOut">LogOut</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_course_screen">CourseScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_lesson_screen">LessonScreen</string>
+    <string name="title_activity_article_screen">ArticleScreen</string>
+    <string name="title_activity_quiz_screen">QuizScreen</string>
+    <string name="title_activity_activity_screen">ActivityScreen</string>
+    <string name="text_card_title">Card Title</string>
+    <string name="text_card_desc">Card Description</string>
+    <string name="title_activity_create_course">CreateCourse</string>
+    <string name="select_string_add_owner">Select an owner</string>
+    <string name="select_string_dropdown_choice">Select from below</string>
+    <string name="title_activity_create_lesson">CreateLesson</string>
+    <string name="title_activity_create_article">CreateArticle</string>
+    <string name="title_activity_article_content">ArticleContent</string>
+    <string name="title_activity_video_player">VideoPlayer</string>
+    <string name="title_activity_create_quiz">CreateQuiz</string>
+    <string name="title_activity_quiz_content">QuizContent</string>
+    <string name="title_activity_create_question">CreateQuestion</string>
+
+    <string name="spinner_title">Select</string>
+
+    <string-array name="TF">
+        <item>Select</item>
+        <item>True</item>
+        <item>False</item>
+    </string-array>
+    <string name="title_activity_create">CreateActivity</string>
+
+</resources>

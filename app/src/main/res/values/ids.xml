@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="a_sview" type="id"/>
+    <item name="a_mlayout" type="id"/>
+    <item name="a_image" type="id"/>
+    <item name="a_title" type="id"/>
+    <item name="a_content" type="id"/>
+    <item name="a_alayout" type="id"/>
+    <item name="a_attach" type="id"/>
+    <item name="a_volayout" type="id"/>
+    <item name="a_vlayout" type="id"/>
+    <item name="a_video" type="id"/>
+    <item name="a_videop" type="id"/>
+    <item name="a_vplayout" type="id"/>
+    <item name="webViewRL" type="id"/>
+    <item name="webView" type="id"/>
+    <item name="s_mlayout" type="id"/>
+    <item name="s_slable" type="id"/>
+    <item name="s_stxt" type="id"/>
+    <item name="s_rate" type="id"/>
+    <item name="s_ratebar" type="id"/>
+    <item name="c_pg" type="id"/>
+    <item name="q_pg" type="id"/>
+    webViewRL
+</resources>

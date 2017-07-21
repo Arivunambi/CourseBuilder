@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.arivunambi.coursebuilder.SignupUser"
+    tools:showIn="@layout/activity_signup_user">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Username:"
+        android:id="@+id/textViewSU"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginEmailSU"
+        android:layout_below="@+id/textViewSU"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Password:"
+        android:id="@+id/textView2SU"
+        android:layout_below="@+id/loginEmailSU"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/loginPasswordSU"
+        android:layout_below="@+id/textView2SU"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Confirm Password:"
+        android:id="@+id/textView2ConfirmSU"
+        android:layout_below="@+id/loginPasswordSU"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/loginPasswordConfirmSU"
+        android:layout_below="@+id/textView2ConfirmSU"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text=""/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/signUpbuttonSU"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/loginPasswordConfirmSU"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
